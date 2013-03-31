@@ -29,7 +29,7 @@ public class sms
         var twilio = new TwilioRestClient(AccountSid, AuthToken);
 
 
-        var message = twilio.SendSmsMessage("+14152266087", "+"+toNumber, "Smoke detected", "");
+        var message = twilio.SendSmsMessage("+14152266087", "+"+toNumber, "Smoke Detected!", "");
 
         return message.Sid.ToString();
 	}

@@ -18,10 +18,10 @@ public class dial
         var twilio = new TwilioRestClient(AccountSid, AuthToken);
 
         var options = new CallOptions();
-        options.Url = "http://gpshaui.somee.com/twilio/service/Response.aspx";
+        options.Url = Host+"Response.aspx";
         //Host+"Response.aspx?imei=" + imei;
         //options.Url = "http://demo.twilio.com/welcome/call/";
-        options.To = to;
+        options.To = "+"+to;
         options.From = "+14152266087";
         options.Timeout = 30;
         options.IfMachine = "Hangup";

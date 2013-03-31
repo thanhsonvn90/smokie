@@ -58,6 +58,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Response.aspx" />
     <Content Include="Service.asmx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -70,6 +71,10 @@
   <ItemGroup>
     <Compile Include="class\dial.cs" />
     <Compile Include="class\sms.cs" />
+    <Compile Include="Response.aspx.cs">
+      <DependentUpon>Response.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="Service.asmx.cs">
       <DependentUpon>Service.asmx</DependentUpon>
       <SubType>Component</SubType>
