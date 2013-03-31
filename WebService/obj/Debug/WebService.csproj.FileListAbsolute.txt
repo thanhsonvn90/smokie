@@ -1,0 +1,12 @@
+C:\Users\SonBui\Desktop\Alarm\WebService\WebService\bin\WebService.dll
+C:\Users\SonBui\Desktop\Alarm\WebService\WebService\bin\WebService.pdb
+C:\Users\SonBui\Desktop\Alarm\WebService\WebService\bin\Newtonsoft.Json.dll
+C:\Users\SonBui\Desktop\Alarm\WebService\WebService\bin\RestSharp.dll
+C:\Users\SonBui\Desktop\Alarm\WebService\WebService\bin\Twilio.Api.dll
+C:\Users\SonBui\Desktop\Alarm\WebService\WebService\bin\Newtonsoft.Json.xml
+C:\Users\SonBui\Desktop\Alarm\WebService\WebService\bin\RestSharp.xml
+C:\Users\SonBui\Desktop\Alarm\WebService\WebService\bin\Twilio.Api.pdb
+C:\Users\SonBui\Desktop\Alarm\WebService\WebService\bin\Twilio.Api.xml
+C:\Users\SonBui\Desktop\Alarm\WebService\WebService\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\SonBui\Desktop\Alarm\WebService\WebService\obj\Debug\WebService.dll
+C:\Users\SonBui\Desktop\Alarm\WebService\WebService\obj\Debug\WebService.pdb
