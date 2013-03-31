@@ -18,7 +18,7 @@ public class dial
         var twilio = new TwilioRestClient(AccountSid, AuthToken);
 
         var options = new CallOptions();
-        options.Url = Host+"xml.aspx";
+        options.Url = Host+"xml.aspx?imei="+imei;
         //Host+"Response.aspx?imei=" + imei;
         //options.Url = "http://demo.twilio.com/welcome/call/";
         options.To = "+"+to;
@@ -27,6 +27,6 @@ public class dial
         options.IfMachine = "Hangup";
         var call = twilio.InitiateOutboundCall(options);
 
-        return call.Sid;
+        return options.Url.ToString()+ call.Sid;
 	}
 }
